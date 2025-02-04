@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+/* Heads */
+h1 {
+    background-color: darkred;
+    padding: 10px;
+    color: mediumvioletred;
+}
+
+h2 {
+    background-color: goldenrod;
+}
+
+/* Carousel */
+.carousel-caption h2 {
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(255, 165, 0, 0.8);
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel img {
+    border: 5px solid darkorange;
+    border-radius: 2px;
+    height: 450px;
+    width: 450px;
+}
+
+.custom-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 50px; 
+  height: 50px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%; 
+  padding: 10px;
+}
+
+/* Text */
+p {
+    background-color: wheat;
+    color: orangered;
+
+}
+
+label {
+    background-color: darkred;
+    color: orange;
+}
+
+ol {
+    background-color: palegoldenrod;
+}
+/* Cards */
+.card {
+    height: 315px;
+    width: 365px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+/* Modals */
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.button {
+    color: magenta;
+    background-color: #007bff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: darkmagenta;
+    background-color: magenta;
+}
